@@ -1,0 +1,48 @@
+@use "@angular/material" as mat;
+@use "./../styles.scss" as styles;
+
+#menuTitle {
+  font-size: medium;
+  margin-right: 20px;
+}
+
+.mat-toolbar {
+  background-color: mat.get-theme-color(styles.$theme, primary, 60);
+  height: 60px;
+}
+
+.mat-sidenav {
+  background-color:  mat.get-theme-color(styles.$theme, primary, 60);
+  width: 150px;
+}
+
+.side-nav-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.side-menu-item {
+  color: white !important;
+  margin-top: 20px;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+@media(min-width: 900px) {
+  #menuIcon {
+    display: none;
+  }
+
+  .mat-sidenav {
+    display: none;
+  }
+}
+
+@media(max-width: 900px) {
+  .top-menu-icon {
+    display: none;
+  }
+}

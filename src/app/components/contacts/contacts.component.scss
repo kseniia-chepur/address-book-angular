@@ -1,0 +1,11 @@
+@use "@angular/material" as mat;
+@use "./../../styles.scss" as styles;
+
+.update-btn {
+  color: mat.get-theme-color(styles.$theme, tertiary, 50);
+}
+
+.delete-btn {
+  color: mat.get-theme-color(styles.$theme, primary, 20);
+}
+

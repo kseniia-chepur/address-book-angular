@@ -1,0 +1,35 @@
+@use "@angular/material" as mat;
+@use "./../../styles.scss" as styles;
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-card {
+  min-width: 800px;
+}
+
+.contact-form-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 10px;
+}
+
+.action-btn {
+  display: flex;
+  gap: 20px;
+  margin-right: 10px;
+}
+
+.create-btn:not(:disabled) {
+  color: mat.get-theme-color(styles.$theme, tertiary, 50);
+}
+
+@media (max-width: 900px) {
+  .contact-card {
+    min-width: 400px;
+  }
+}

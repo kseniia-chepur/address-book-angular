@@ -5,16 +5,16 @@ $theme: mat.define-theme(
     color: (
       theme-type: light,
       primary: mat.$blue-palette,
-      tertiary: mat.$azure-palette,
+      tertiary: mat.$magenta-palette,
     ),
   )
 );
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+// }
 
 html,
 body {

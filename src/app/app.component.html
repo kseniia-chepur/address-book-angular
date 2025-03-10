@@ -22,13 +22,25 @@
 <mat-sidenav-container>
   <mat-sidenav #sidenav [fixedInViewport]="true" [fixedTopGap]="60" mode="side">
     <div class="side-nav-items">
-      <a (click)="sidenav.close()" mat-button routerLink="/" class="side-menu-item"
+      <a
+        (click)="sidenav.close()"
+        mat-button
+        routerLink="/"
+        class="side-menu-item"
         ><mat-icon>home</mat-icon> Home</a
       >
-      <a (click)="sidenav.close()" mat-button routerLink="contacts" class="side-menu-item"
+      <a
+        (click)="sidenav.close()"
+        mat-button
+        routerLink="contacts"
+        class="side-menu-item"
         ><mat-icon>group</mat-icon>Contacts</a
       >
-      <a (click)="sidenav.close()" mat-button routerLink="new-contact" class="side-menu-item"
+      <a
+        (click)="sidenav.close()"
+        mat-button
+        routerLink="new-contact"
+        class="side-menu-item"
         ><mat-icon>person_add</mat-icon>New Contact</a
       >
     </div>

@@ -1,5 +1,5 @@
 @use "@angular/material" as mat;
-@use "./../../styles.scss" as styles;
+@use "../../../styles.scss" as styles;
 
 .update-btn {
   color: mat.get-theme-color(styles.$theme, tertiary, 50);
